@@ -3,6 +3,8 @@ import sys
 
 
 def main():
+    """main function
+    """
     if len(sys.argv) >= 2:
         if len(sys.argv) == 2:
             print(len(sys.argv) - 1, "argument:")
